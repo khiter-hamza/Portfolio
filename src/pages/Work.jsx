@@ -2,6 +2,22 @@ import { ExternalLink, Code, Shield, Globe, FileCode, Terminal } from 'lucide-re
 
 const Work = () => {
   const projects = [
+    {
+      id: 8,
+      title: 'Doxaa',
+      description: 'Intelligent Ticketing System with Agentic AI Pipeline, work on it mainly to learn RAG, i haven`t finished it yet',
+      technologies: ['Rag','automation','agentic ai'],
+      status: 'not Active',
+      image: 'Doxaa',
+    },
+    {
+      id: 9,
+      title: 'Healthcare Agent',
+      description: 'Healthcare Agent , is a LLM finetuned on a healthcare dataset to answer questions about healthcare.',
+      technologies: ['Pytorch', 'LLM', 'Fine-tuning', 'Word-Embedding', 'Transformers','Attention Mechanism'],
+      status: 'not Active',
+      image: 'Healthcare Agent',
+    },
 
     {
       id: 2,
@@ -37,22 +53,7 @@ const Work = () => {
       status: 'Active',
       image: 'ramdany',
     },
-    {
-      id: 8,
-      title: 'Doxaa',
-      description: 'Intelligent Ticketing System with Agentic AI Pipeline. i haven`t finished it yet',
-      technologies: ['Rag','automation','agentic ai'],
-      status: 'not Active',
-      image: 'Doxaa',
-    },
-    {
-      id: 8,
-      title: 'Healthcare Agent',
-      description: 'Healthcare Agent , is a LLM finetuned on a healthcare dataset to answer questions about healthcare.',
-      technologies: ['Pytorch', 'LLM', 'Fine-tuning', 'Word-Embedding', 'Transformers','Attention Mechanism'],
-      status: 'not Active',
-      image: 'Healthcare Agent',
-    },
+    
     
   ]
 
