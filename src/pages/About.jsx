@@ -72,7 +72,7 @@ const About = () => {
             <div className="space-y-4">
             <div className="w-48 h-48 bg-[#1a1a1a] rounded-lg overflow-hidden">
   <img 
-    src="UI_UX/profile.jpg" 
+    src="/UI_UX/profile.jpg" 
     className="w-full h-full object-cover" 
     alt="Profile"
   />
