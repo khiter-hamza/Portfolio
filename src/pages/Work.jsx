@@ -3,7 +3,7 @@ import { ExternalLink, Code, Shield, Globe, FileCode, Terminal } from 'lucide-re
 const Work = () => {
   const projects = [
     {
-      id: 8,
+      id: 1,
       title: 'Doxaa',
       description: 'Intelligent Ticketing System with Agentic AI Pipeline, work on it mainly to learn RAG, i haven`t finished it yet',
       technologies: ['Rag','automation','agentic ai'],
@@ -11,16 +11,24 @@ const Work = () => {
       image: 'Doxaa',
     },
     {
-      id: 9,
+      id: 2,
       title: 'Healthcare Agent',
       description: 'Healthcare Agent , is a LLM finetuned on a healthcare dataset to answer questions about healthcare.',
       technologies: ['Pytorch', 'LLM', 'Fine-tuning', 'Word-Embedding', 'Transformers','Attention Mechanism'],
       status: 'not Active',
       image: 'Healthcare Agent',
     },
+    {
+      id: 3,
+      title: 'telecom-ai-support',
+      description: 'An AI-powered customer support system that automatically classifies telecom complaints (billing, speed, outage, etc.), extracts key information (account numbers, speeds), determines urgency levels, and generates professional auto-replies using LLM APIs.',
+      technologies: ['FastApi', 'LLM', 'CRUD'],
+      status: 'not Active',
+      image: 'TAS',
+    },
 
     {
-      id: 2,
+      id: 4,
       title: 'hamzaBlog',
       description: 'Find your hamza\'s inspiration and share your his ideas. I felt bored so I made a blog, it is not finished yet but you can read some of my articles.',
       technologies: ['React', 'Shadcn UI', 'Tailwind', 'Firebase'],
@@ -28,7 +36,7 @@ const Work = () => {
       image: 'hamza-blog',
     },
     {
-      id: 3,
+      id: 5,
       title: 'Online Shop',
       description: 'Modern online shop platform with a clean and responsive user interface. A robust e-commerce application built with Vite and React for seamless shopping experiences.',
       technologies: ['Vite', 'React'],
@@ -36,7 +44,7 @@ const Work = () => {
       image: 'online-shop',
     },
     {
-      id: 4,
+      id: 6,
       title: 'Online Shop Manager',
       description: 'Admin and manager portal for an online shop with statistics, product management, and user controls. Management platform for online shop owners, providing analytics and controls over products and sales.',
       technologies: ['Vite', 'React'],
